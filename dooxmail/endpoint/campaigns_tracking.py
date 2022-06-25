@@ -1,5 +1,5 @@
-from mailwizz.base import Base
-from mailwizz.client import Client
+from dooxmail.base import Base
+from dooxmail.client import Client
 
 
 class CampaignsTracking(Base):

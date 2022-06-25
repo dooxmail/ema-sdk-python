@@ -1,5 +1,5 @@
-from mailwizz.base import Base
-from mailwizz.client import Client
+from dooxmail.base import Base
+from dooxmail.client import Client
 
 
 class ListSubscribers(Base):
@@ -233,7 +233,7 @@ class ListSubscribers(Base):
     def email_search_all_lists(self, email_address: str):
         """
         Search in a all lists for given subscriber by email address
-        Please note that this is available only for mailwizz >= 1.3.6.2
+        
         :param email_address:
         :return:
         """

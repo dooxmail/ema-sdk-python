@@ -1,6 +1,6 @@
 from urllib.parse import urlparse
 
-from mailwizz.base import Base
+from dooxmail.base import Base
 
 
 class Config(Base):

@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='mailwizz-python-sdk',
+    name='ema-sdk-python',
     version='1.0.0',
     packages=setuptools.find_packages(),
-    url='https://www.mailwizz.com',
+    url='https://www.dooxmail.com',
     license='MIT',
-    author='twisted1919',
-    author_email='support@mailwizz.com',
-    description='This repository contains the Python SDK for MailWizz EMA.',
+    author='dooxmail',
+    author_email='support@dooxmail.com',
+    description='This repository contains the Python SDK for DooxMail EMA.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     classifiers=[

@@ -1,1 +1,1 @@
-name = 'Mailwizz Python SDK'
+name = 'DooxMail Python SDK'
